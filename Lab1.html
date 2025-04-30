@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LAB-1</title>
+</head>
+<body>
+ <center><h1>Registration</h1></center>
+<div align="center">
+<form action=" " method="post" target="_blank">
+	
+	<table border="0">
+		<tr>
+		<td><label for="name" > Name:</label></td>
+	<td><input type="text" name="name" required autofocus placeholder="Enter your name" maxlength="25"></td>
+	</tr>
+	<tr>
+		<td><label for="email"> Email:</label></td>
+		<td><input type="email" name="email" required="required" pattern="@gmail.com"></td>
+	</tr>
+	<tr>
+
+		<td><label for="password">Password:</label></td>
+	
+	<td><input type="password" name="password" required maxlength="6"></td>
+</tr>
+	<tr>
+	<td><label for="category">Category:</label></td>
+	<td><select>
+		<option value="student"> Student</option>
+		<option value="employee"> Employee</option>
+		<option value="freelancer" selected> Freelancer</option>
+	</select></td>
+</tr>
+
+<tr>
+	<td><label for="date">Date:</label></td>
+		<td><input type="date" name="date">
+	</td>
+</tr>
+<tr>
+	<td><label for="tickets">
+		Ticket
+	</label></td>
+	<td>1 ticket<input type="radio"  name="value"> 2 ticket<input type="radio"  name="value">3 ticket <input type="radio" name="value"></td>
+</tr>
+<tr>
+	<td><label for="payment">Payment type</label></td>
+	<td>Online Payment<input type="checkbox" name="check"> Credit Card<input type="checkbox" name="check"></td>
+</tr>
+<tr>
+	<td><label for="notes">Notes</label></td>
+	<td><textarea rows="5" cols="20" placeholder="Enter your Notes" required></textarea></td>
+</tr>
+<tr>
+	<td><button name="submit" value="submit">Submit</button></td>
+	<td><button name="reset" value="reset">Reset</button></td>
+	</tr>
+	
+	</table>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration form</title>
+</head>
+<body><div align="center">
+	<h1>Registration</h1>
+<form action="" method="Post" target="_blank">
+	<table border="0">
+	<tr>
+		<td><label for="name"> Name:</label></td>
+	<td><input type="text" name="name" required autofocus></td>
+	</tr>
+	<tr>
+	<td><label for="age"> Age:</label></td>
+	<td><input type="text" name="age" required></td>
+</tr>
+<tr>
+	<td><label for="gender"> Gender:</label></td>
+	<td>Female<input type="radio" name="gender" value="female" > &nbsp; Male <input type="radio" name="gender" value="male"></td>
+	</tr>
+	<tr>
+	<td><label for="Hobbies">Hobbies:</label></td>
+	<td>
+	Drawing<input type="checkbox" name="Drawing" >
+	Painting<input type="checkbox" name="Painting" >
+	Singing<input type="checkbox" name="Singing" >
+	Dancing<input type="checkbox" name="Dancing" ></td>
+</tr>
+	<tr>
+		<td><label for="email"> Email:</label></td>
+		<td><input type="email" name="email" required pattern="@gmail.com"></td>
+	</tr>
+	
+	<tr>
+		<td><label for="password">Password:</label></td>
+	
+	<td><input type="password" name="password" required></td>
+</tr>
+
+<tr>
+	<td><label for="category">Category</label></td>
+	<td><select>
+		<option value="student"> Student</option>
+		<option value="employee"> Employee</option>
+		<option value="freelancer"> Freelancer</option>
+	</select></td>
+</tr>
+<tr>
+	<td><label for="date">
+		<input type="date
+		" name="date">
+	</label></td>
+</tr>
+	<tr>
+	<td><button name="submit" value="submit">Submit</button></td>
+	<td><button name="reset" value="reset">Reset</button></td>
+	</tr>
+</form>
+</div>
+
+</body>
+</html>
