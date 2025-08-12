@@ -1,4 +1,5 @@
 package basics;
+
 import java.util.Scanner;
 public class Main {
 
@@ -8,28 +9,28 @@ public class Main {
 		System.out.println("Enter a number:");	
 		int num=sc.nextInt();
 		
-		System.out.println("Enter a number:");	
-		int num2=sc.nextInt();
+//		System.out.println("Enter a number:");	
+//		int num2=sc.nextInt();
+//		
+//		System.out.println("Enter a number:");	
+//		int num3=sc.nextInt();
 		
-		System.out.println("Enter a number:");	
-		int num3=sc.nextInt();
-		
-//	
-//		if(num>0)
-//		{
-//			System.out.println("The number is positive!");
-//		}
-//		else if(num<0)
-//		{
-//			System.out.println("The number is negative!!");
-//		}
-//		else if(num==0)
-//		{
-//			System.out.println("The number is 0!");
-//		}
-//		else {
-//			System.out.println("The number is invalid!");
-//		}
+	
+		if(num>0)
+		{
+			System.out.println("The number is positive!");
+		}
+		else if(num<0)
+		{
+			System.out.println("The number is negative!!");
+		}
+		else if(num==0)
+		{
+			System.out.println("The number is 0!");
+		}
+		else {
+			System.out.println("The number is invalid!");
+		}
 //		
 		// ODD OR EVEN
 //		
@@ -68,20 +69,23 @@ public class Main {
 		
 //		3 NUMBERS GREATER
 		
-		if(num>num2 && num>num3)
-		{
-			System.out.println(num+" Is greater");
-		}
+//		if(num>num2 && num>num3)
+//		{
+//			System.out.println(num+" Is greater");
+//		}
+//	
+//		else if(num2>num3 )
+//		{
+//			System.out.println(num2+" Is greater");
+//		}
+//		else {
+//			System.out.println(num3+" Is greater");
+//		}
+//		
+		
+		
+			}
+		
+	}
 	
-		else if(num2>num3 )
-		{
-			System.out.println(num2+" Is greater");
-		}
-		else {
-			System.out.println(num3+" Is greater");
-		}
-		
-		
-	}
-	}
 
