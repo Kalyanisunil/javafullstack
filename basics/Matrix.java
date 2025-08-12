@@ -56,7 +56,7 @@ public class Matrix {
 		{
 			for(int j=0;j<b[i].length;j++)
 			{
-				sum[i][i]=a[i][j]+b[i][j];
+				sum[i][j]=a[i][j]+b[i][j];
 			}
 		}
 		
