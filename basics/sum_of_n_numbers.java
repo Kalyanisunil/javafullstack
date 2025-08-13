@@ -9,9 +9,10 @@ public class sum_of_n_numbers {
 		
 		
 		int sum=0;
-		Scanner input = new Scanner(System.in); // create an object of Scanner
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the number:");// create an object of Scanner
 		int number = input.nextInt();
-		System.out.println("Enter the number:");
+		
 		
 		for(int i=1;i<=number;i++)
 		{
