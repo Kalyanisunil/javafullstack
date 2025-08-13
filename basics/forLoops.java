@@ -11,6 +11,13 @@ public class forLoops {
 		{
 			System.out.println(i);		
 		}
+		
+		System.out.println("PRINTING 10-1  WITH FOR LOOP: ");	
+		for(int i=10;i>=1;i--)
+		{
+			System.out.println(i);	
+		}
+		
 	}
 
 }
