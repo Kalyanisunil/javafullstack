@@ -40,6 +40,8 @@ public class Matrix {
 			 System.out.println();
 		}
 		System.out.println();
+		
+		
 		for(int i=0;i<b.length;i++)
 		{
 			for(int j=0;j<b[i].length;j++)
@@ -67,6 +69,7 @@ public class Matrix {
 				diff[i][j]=a[i][j]-b[i][j];
 			}
 		}
+		
 		System.out.println("The sum of both matrices:");
 		for(int i=0;i<b.length;i++)
 		{
