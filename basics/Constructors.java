@@ -6,8 +6,6 @@ public class Constructors {
 		// TODO Auto-generated method stub
 		defaultConstructor obj= new defaultConstructor();
 		System.out.println(obj.name);
-	
-		
 	}
 
 }
