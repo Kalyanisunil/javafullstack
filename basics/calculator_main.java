@@ -37,7 +37,14 @@ public class calculator_main {
 			c.multiply(a,b);
 			break;
 		case 4:
-			c.divide(a,b);
+			
+			try {
+				c.divide(a,b);
+			}
+			catch(Exception e)
+			{
+				System.out.println("Division by zero is undefined!");
+			}
 			break;
 		case 5:
 			sc.close();
