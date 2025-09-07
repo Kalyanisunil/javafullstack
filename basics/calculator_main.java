@@ -6,7 +6,7 @@ public class calculator_main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc=new Scanner(System.in);
+		Scanner  sc=new Scanner(System.in);
 		int flag=1;
 		while(flag==1)
 		{
@@ -37,7 +37,6 @@ public class calculator_main {
 			c.multiply(a,b);
 			break;
 		case 4:
-			
 			try {
 				c.divide(a,b);
 			}
