@@ -1,0 +1,31 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Spring Boot App</title>
+  
+  <script  th:inline="javascript"> 
+	var message = /*[[${message}]]*/ null;
+	
+	 function like()
+	 {
+		alert(message);
+	 }
+		
+  </script>
+  
+  
+</head>
+<body>
+  
+ <h1>Hello</h1>
+ <div th:if="${isLiking}">
+	<img src="/images/spring.png" alt="My Image">
+ </div>
+ <div th:if="${!isLiking}">
+ 	<img  alt="There was an image to show">
+  </div>
+ 	<button onclick="like()">Like</button>
+	
+	
+</body>
+</html>
